@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lotz.Xam.Messaging.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="P:Lotz.Xam.Messaging.IEmailMessage.Message">
+            <summary>
+                Email message body.
+            </summary>
+        </member>
+        <member name="P:Lotz.Xam.Messaging.IEmailMessage.Attachments">
+            <summary>
+                List of attachments.
+            </summary>
+            <remarks>
+                Not supported on Windows Phone and Windows Store platform
+            </remarks>
+        </member>
+        <member name="P:Lotz.Xam.Messaging.IEmailMessage.Recipients">
+            <summary>
+                List of To recipients
+            </summary>
+        </member>
+        <member name="P:Lotz.Xam.Messaging.IEmailMessage.RecipientsBcc">
+            <summary>
+                List of Bcc recipients
+            </summary>
+        </member>
+        <member name="P:Lotz.Xam.Messaging.IEmailMessage.RecipientsCc">
+            <summary>
+                List of Cc recipients
+            </summary>
+        </member>
+        <member name="P:Lotz.Xam.Messaging.IEmailMessage.Subject">
+            <summary>
+                Email subject
+            </summary>
+        </member>
+        <member name="T:Lotz.Xam.Messaging.IEmailTask">
+            <summary>
+                Abstraction for sending cross-platform email messages using
+                the default mail application on the device.
+            </summary>
+        </member>
+        <member name="M:Lotz.Xam.Messaging.IEmailTask.SendEmail(Lotz.Xam.Messaging.IEmailMessage)">
+            <summary>
+                Send the <paramref name="email" /> using the default email application
+                on the device
+            </summary>
+            <param name="email">Email to send</param>
+        </member>
+        <member name="M:Lotz.Xam.Messaging.IEmailTask.SendEmail(System.String,System.String,System.String)">
+            <summary>
+                Send an email using the default email application on the device
+            </summary>
+            <param name="to">Email recipient</param>
+            <param name="subject">Email subject</param>
+            <param name="message">Email message</param>        
+        </member>
+        <member name="P:Lotz.Xam.Messaging.IEmailTask.CanSendEmail">
+            <summary>
+                Gets a value indicating whether the device can send e-mails
+            </summary>
+        </member>
+        <member name="T:Lotz.Xam.Messaging.IPhoneCallTask">
+            <summary>
+                Abstraction for making cross-platform phone calls on the device.
+            </summary>
+            <remarks>
+                On WinPhone platform, the ID_CAP_PHONEDIALER capability needs to be
+                added to the application manifest
+            </remarks>
+        </member>
+        <member name="M:Lotz.Xam.Messaging.IPhoneCallTask.MakePhoneCall(System.String,System.String)">
+            <summary>
+                Make a phone call using the default dialer UI on the device.
+            </summary>
+            <param name="number">Number to phone</param>
+            <param name="name">Optional name of the contact being phoned used for visual display
+            on some platforms</param>
+            <remarks>
+                On WinPhone platform, the ID_CAP_PHONEDIALER capability needs to be
+                added to the application manifest
+            </remarks>
+        </member>
+        <member name="P:Lotz.Xam.Messaging.IPhoneCallTask.CanMakePhoneCall">
+            <summary>
+                Gets a value indicating whether the device can make a phone call
+            </summary>
+        </member>
+        <member name="T:Lotz.Xam.Messaging.ISmsTask">
+            <summary>
+                Abstraction for sending cross-platform sms messages using
+                the default sms messenger on the device.
+            </summary>
+            <remarks>
+                On Android platform, the android.permission.SEND_SMS needs
+                to be added to the Android manifest.
+            </remarks>
+        </member>
+        <member name="M:Lotz.Xam.Messaging.ISmsTask.SendSms(System.String,System.String)">
+            <summary>
+                Send a sms using the default sms messenger on the device
+            </summary>
+            <param name="recipient">Sms recipient</param>
+            <param name="message">Sms message</param>
+            <remarks>
+                On Android platform, the android.permission.SEND_SMS needs
+                to be added to the Android manifest.
+            </remarks>
+        </member>
+        <member name="P:Lotz.Xam.Messaging.ISmsTask.CanSendSms">
+            <summary>
+                Gets a value indicating whether the device can send a sms
+            </summary>
+        </member>
+    </members>
+</doc>

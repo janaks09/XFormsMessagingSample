@@ -1,0 +1,15 @@
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\CallSMSSample.dll
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\CallSMSSample.pdb
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Lotz.Xam.Messaging.Abstractions.dll
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Lotz.Xam.Messaging.dll
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Lotz.Xam.Messaging.pdb
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Lotz.Xam.Messaging.xml
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Lotz.Xam.Messaging.Abstractions.pdb
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Lotz.Xam.Messaging.Abstractions.xml
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\obj\Debug\CallSMSSample.dll
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\obj\Debug\CallSMSSample.pdb
+C:\Users\Janak\Documents\Visual Studio 2013\Projects\XAMARIN\CallSMSSample\CallSMSSample\CallSMSSample\obj\Debug\CallSMSSample.csprojResolveAssemblyReference.cache
